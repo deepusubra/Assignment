@@ -1,0 +1,31 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab Two
+    </ion-title>
+  </ion-toolbar>
+</ion-header> -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      News
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <ion-card>  
+     <ion-img [src]="article.urlToImage"></ion-img>
+      <ion-card-content>
+           <ion-card-title>{{article.tite}}</ion-card-title>
+           <p>{{article.description}}</p>
+         </ion-card-content>
+     </ion-card>
+
+
+</ion-content>
